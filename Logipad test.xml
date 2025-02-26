@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para>**![D:\\og-dd-logo-1200x628 (2).jpg](media/0606ca5628079ef13936db4fee95401c.jpeg)**</para>
+  <para/>
+  <para>![D:\\csm_Logipad_Logo_rgb_6a9b8dd7a2.png](media/feb27d0a82e329ed73c7120de86f2efb.png)</para>
+  <para>$ pandoc inFile.md -o outFile.{pdf|word|html}</para>
+  <para/>
+  <para>**LOGIPAD USER MANUAL**</para>
+  <para/>
+  <para>**![](media/ab36b643f45515574436c82d5c523443.png)**</para>
+  <para/>
+  <para>Manual Code: LM- Logipad Team</para>
+  <para/>
+  <para>Issue Number: 02, Issue date: 14 Feb 2025</para>
+  <para/>
+  <para>Revision Number: 00, Revision date: 14 Feb 2025</para>
+  <para/>
+  <para>Blank page</para>
+  <para/>
+  <para># GENERAL</para>
+  <para/>
+  <para>## TABLE OF CONTENTS</para>
+  <para/>
+  <para>[CHAPTER 0 GENERAL](#_Toc190426885)</para>
+  <para/>
+  <para>[0.1 TABLE OF CONTENTS](#_Toc190426886)</para>
+  <para/>
+  <para>[0.2 LIST OF TABLES](#_Toc190426887)</para>
+  <para/>
+  <para>[0.3 LIST OF FIGURES](#_Toc190426888)</para>
+  <para/>
+  <para>[0.4 LIST OF EFFECTIVE PAGES](#_Toc190426889)</para>
+  <para/>
+  <para>[0.5 LIST OF SIGNIFICANT CHANGES](#_Toc190426890)</para>
+  <para/>
+  <para>[0.6 PURPOSE OF MANUAL](#_Toc190426891)</para>
+  <para/>
+  <para>[0.7 ABBREVIATIONS](#_Toc190426892)</para>
+  <para/>
+  <para>[0.8 DEFINITIONS](#_Toc190426893)</para>
+  <para/>
+  <para>[CHAPTER 1 MANAGEMENT AND ADMINISTRATION](#_Toc190426894)</para>
+  <para/>
+  <para>[1.1 EFB SYSTEM OVERVIEW/ CONTROL AND RESPONSIBLE:](#efb-system-overview-control-and-responsible)</para>
+  <para/>
+  <para>[1.2 Management User Interface (MUI) Over view :](#management-user-interface-mui-over-view-)</para>
+  <para/>
+  <para>[1.3 Flight manager - simple to use, control and export of flight data](#flight-manager---simple-to-use-control-and-export-of-flight-data)</para>
+  <para/>
+  <para>[1.4 Logipad Webclient](#logipad-webclient)</para>
+  <para/>
+  <para>[1.5 Jasper report/ Logipad reporting server](#jasper-report-logipad-reporting-server)</para>
+  <para/>
+  <para>[CHAPTER 2 LOGIPAD MODULES](#_Toc190426900)</para>
+  <para/>
+  <para>[2.1 OVERVIEW :](#overview-)</para>
+  <para/>
+  <para>[2.2 DOCUMENTATION MODULE :](#documentation-module-)</para>
+  <para/>
+  <para>[2.3 BRIEFING MODULE :](#briefing-module-)</para>
+  <para/>
+  <para>[2.4 EFORMS MODULE :](#eforms-module-)</para>
+  <para/>
+  <para>[CHAPTER 3 EFB APPROVAL PROCESS](#_Toc190426905)</para>
+  <para/>
+  <para>[3.1 EFB Approval Process Guidance for Operator :](#efb-approval-process-guidance-for-operator-)</para>
+  <para/>
+  <para>[CHAPTER 4 HUMAN FACTOR MITIGATION](#human-factor-mitigation)</para>
+  <para/>
+  <para>[4.1 General :](#general-)</para>
+  <para/>
+  <para>[CHAPTER 5 EFB PRINCIPLE CREW PROCEDURES](#_Toc190426909)</para>
+  <para/>
+  <para>[5.1 General](#general-1)</para>
+  <para/>
+  <para>[5.2 Workload and Coordination](#workload-and-coordination)</para>
+  <para/>
+  <para>[5.3 Reporting](#reporting)</para>
+  <para/>
+  <para>[CHAPTER 6 EFB TRAINING PROGRAM](#_Toc190426913)</para>
+  <para/>
+  <para>[6.1 EFB Training guidance :](#efb-training-guidance-)</para>
+  <para/>
+  <para>[CHAPTER 7 RISK ASSESSMENT FOR LOGIPAD AERO FUNCTIONS](#_Toc190426915)</para>
+  <para/>
+  <para>[7.1 RISK ASSESSMENT FOR LOGIPAD DOCUMENTATION MODULE](#risk-assessment-for-logipad-documentation-module)</para>
+  <para/>
+  <para>[7.2 RISK ASSESSMENT FOR LOGIPAD electronic Flight Folder ( EFF) MODULE](#risk-assessment-for-logipad-electronic-flight-folder--eff-module)</para>
+  <para/>
+  <para>[7.3 RISK ASSESSMENT FOR electronic Forms (eForms) MODULE](#risk-assessment-for-electronic-forms-eforms-module)</para>
+  <para/>
+  <para>## LIST OF TABLES</para>
+  <para/>
+  <para>[Table 1: Failure cases and Mitigation means in Documentation module](#_Toc190426919)</para>
+  <para/>
+  <para>[Table 2: Failure cases and Mitigation means in EFF module](#_Toc190426920)</para>
+  <para/>
+  <para>[Table 3: Failure cases and Mitigation means in EForms module](#_Toc190426921)</para>
+  <para/>
+  <para>## LIST OF FIGURES</para>
+  <para/>
+  <para>No table of figures entries found.</para>
+  <para/>
+  <para>## LIST OF EFFECTIVE PAGES</para>
+  <para/>
+  <para>This manual has been reviewed and controlled by Logipad Team.</para>
+  <para/>
+  <para>More information has been available at **Logipad**</para>
+  <para/>
+  <para>LIST OF NORMAL REVISIONS</para>
+  <para/>
+  <para>| **Issue number** | **Revision number** | **Effective date** | **Approval** |</para>
+  <para>|------------------|---------------------|--------------------|--------------|</para>
+  <para>| 02               | 00                  | 14/02/2025         |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para>|                  |                     |                    |              |</para>
+  <para/>
+  <para>## LIST OF SIGNIFICANT CHANGES</para>
+  <para/>
+  <para>| **Section/item**       | **List of significant changes**                    |</para>
+  <para>|------------------------|----------------------------------------------------|</para>
+  <para>| Chapter 0              | Revised Chapter 0 General                          |</para>
+  <para>| Chapter 1              | Revised Chapter 1 Management and Administration    |</para>
+  <para>| Chapter 2              | Revised Chapter 2 Logipad Modules                  |</para>
+  <para>| Chapter 3              | Revised Chapter 3 EFB Approval Process             |</para>
+  <para>| Chapter 4              | Revised Chapter 4 Human Factor Mitigation          |</para>
+  <para>| Chapter 5              | Revised Chapter 5 EFB Principle Crew procedures    |</para>
+  <para>| Chapter 6              | Revised Chapter 6 EFB Training Program             |</para>
+  <para>|  Chapter 7 (Appendix)  | Revised Chapter 7 Risk Assessment for Logipad Aero |</para>
+  <para/>
+  <para>## PURPOSE OF MANUAL</para>
+  <para/>
+  <para>The purpose of this Manual is to provide the organizational structure and specification, responsibilities, administrative and standard operating procedures and steps in the workflow of the Electronic Flight Bag (EFB) Program in a clear and comprehensive manner to end users:</para>
+  <para/>
+  <para>-   Flight operation managers</para>
+  <para>-   Pilots;</para>
+  <para>-   Dispatchers;</para>
+  <para>-   Flight Operations Officer.</para>
+  <para>-   Ground personnel</para>
+  <para>-   Maintenance personnel, â€¦</para>
+  <para>-   Operators Employees,â€¦</para>
+  <para/>
+  <para>The main objectives of this Manual are:</para>
+  <para/>
+  <para>-   To define the functional responsibilities in order to ensure the clarity of roles, authority and accountability of all persons in charge of the EFB Program.</para>
+  <para>-   To establish the administrative and operating procedures within the scope of the EFB Program in order to maintain and improve the co-ordination capability, as well as the performance and stabilization of methods and models of operation which are used in the Program.</para>
+  <para>-   To provide the guidelines for regulating the activities within the Program in order to achieve the Programâ€™s objectives in conformance with the Company interest.</para>
+  <para>-   To provide a detail on the training matters relating to the EFB Program.</para>
+  <para>-   It shall be noted that EFB program (include operating procedures, pertinent training modules, checklists, operations manuals, training manuals, maintenance programs, minimum equipment lists (MEL), other pertinent documents, and reporting procedures) was build incorporated into Operators policy.</para>
+  <para/>
+  <para>## ABBREVIATIONS</para>
+  <para/>
+  <para>The following abbreviations may be used in Logipad manuals</para>
+  <para/>
+  <para>| A/C                        | Aircraft                                     |</para>
+  <para>|----------------------------|----------------------------------------------|</para>
+  <para>| AMC                        | Acceptable Means of Compliance               |</para>
+  <para>| ARINC                      | Aeronautical Radio, Incorporated             |</para>
+  <para>| OFP                        | Operation Flight Plan                        |</para>
+  <para>| PPS                        |  Flight Planning System                      |</para>
+  <para>| PED                        | Portable Electronic Devices                  |</para>
+  <para>| MUI                        |  Logipad Management User Interface           |</para>
+  <para>| EASA                       | European Aviation Safety Agency              |</para>
+  <para>| EFB                        | Electronic Flight Bag                        |</para>
+  <para>| EFF                        | Electronic Flight Folder                     |</para>
+  <para>| IATA                       | International Air Transport Association      |</para>
+  <para>| ICAO                       | International Civil Aviation Organization    |</para>
+  <para>| ORO                        | Organization Requirements for Air Operations |</para>
+  <para>| CAT                        | Commercial Air Transport                     |</para>
+  <para>| SPA                        | Special Approvals                            |</para>
+  <para>| NAA                        | National Aviation Authorities                |</para>
+  <para>| NCC Non Commercial Complex | Non-Commercial Complex                       |</para>
+  <para/>
+  <para>## DEFINITIONS</para>
+  <para/>
+  <para>The following definitions are specific to this Manual and may differ from those definitions contained in other published references.</para>
+  <para/>
+  <para>-   **Administrative Control Process:** Operator-administered procedures to control and record the EFB Programâ€™s operations process</para>
+  <para>-   **Portable EFB:** Portable components supporting EFB applications are considered PEDs. For a PED to be considered an EFB, the PED must actively display Types A and/or B software application(s) (e.g., when a PED is displaying personal email, the PED is not considered an EFB; when the same PED is authorized and actively displaying a Type B aeronautical chart application, it is then considered an EFB).</para>
+  <para>-   **Installed EFB:** EFB equipment components supporting EFB applications are â€œinstalledâ€� when they are incorporated into aircraft type design under 14 CFR part 21,AMC 20-25A or as a proper alteration under 14 CFR part 43, Â§ 43.3.</para>
+  <para>-   **Type A Software Applications**: Have a failure condition classification considered to be no safety effect; Do not substitute for or replace any paper, system, or equipment required by airworthiness or operational regulations; and Do not require specific authorization for use (i.e., although the Type A EFB application is part of the operatorâ€™s EFB program, Type A EFB applications are not identified or controlled in the OpSpecs or Management Specifications (MSpecs)).</para>
+  <para>-   **Type B Software Applications**: Have a failure condition classification considered minor; May substitute or replace paper products of information required for dispatch or to be carried in the aircraft; May not substitute for or replace any installed equipment required by airworthiness or operating regulations; and require specific authorization for operational authorization for use (i.e., each Type B EFB application must be authorized by the FAA in</para>
+  <para>-   **Miscellaneous (non-EFB) software applications:** Miscellaneous software applications are non-EFB applications, supporting function(s) not directly related to operations conducted by the flight crew on the aircraft.</para>
+  <para>-   **Critical Phases of Flight:** Critical phases of flight in the case of aeroplanes means the take-off run, the take-off flight path, the final approach, the missed approach, the landing, including the landing roll, and any other phases of flight as determined by the pilot-in-command or commander.</para>
+  <para>-   **Electronic Flight Bag (EFB):** An EFB is any device, or combination of devices, actively displaying EFB applications. EFBs are characterized by the following: An EFB hosts applications, which are generally replacing conventional paper products and tools, traditionally carried in the pilotâ€™s flight bag. EFB applications include natural extensions of traditional flight bag contents, such as replacing paper copies of weather with access to near-real-time weather information. In order to qualify as an EFB application, the failure effect must be considered a minor hazard or have no safety effect. Acceptable EFB applications are listed in section 1.2.2 These EFB applications may be overlaid or integrated. EFBs cannot replace any installed equipment required by operational or airworthiness regulations. EFB applications have no certification requirements for installation under aircraft type design.</para>
+  <para>-   **Electronic Flight Folder (EFF):** An EFF software contains flight plans, NOTAMS, weather charts, and additional flight information, for example, and the structure can be adapted as required. The look and structure of the Flight Folder can be aligned with the operations manual and briefing definition</para>
+  <para>-   **Hosted Application:** Software running on an EFB that is not installed or considered part of aircraft type design</para>
+  <para>-   **Interactive Information:** Information presented on the EFB that, via software applications, can be selected and rendered in a number of dynamic ways. This includes variables in the information presented based on data- oriented software algorithms, concepts of de-cluttering, and selectable composition as opposed to pre-composed information.</para>
+  <para>-   **Mounted:** Any portable device that is attached to a permanently installed mounting device</para>
+  <para>-   **Mounting Device**: A mounting device is an aircraft certified part which secures portable or installed EFB, or EFB system components.</para>
+  <para>-   **Stowed :** A portable device that is placed in a secure stowage location but is not available for use or view by the pilot in that location</para>
+  <para>-   **User:** means Pilots, Cabin Attendants, Dispatcher and Flight Operation Officer.</para>
+  <para>-   **Company iPad:** iPads which have been assign to individuals for their duty. Company iPads are certified as official devices to perform Operatorâ€™s EFB.</para>
+  <para>-   **Personal iPad:** iPads which are personal priorities,</para>
+  <para>-   **Warranty time:** 01 years starting from the date receiving a company iPad.</para>
+  <para>-   **Viewable Stowage** : A device that is secured on the flight crew (e.g. kneeboard) or in/to an existing aircraft part (e.g. suction cups) with the intended function to hold charts or to hold acceptable light mass portable devices (for example an EFB of no more than 1 Kg) viewable to the pilot at her/his required duty station. The device is not necessarily part of the certified aircraft configuration.</para>
+  <para/>
+  <para>The term â€œmustâ€� is used to indicate mandatory requirements.</para>
+  <para/>
+  <para>The terms â€œshouldâ€� and â€œrecommendâ€� are used when guidance is recommended, but not required.</para>
+  <para/>
+  <para># MANAGEMENT AND ADMINISTRATION</para>
+  <para/>
+  <para>## EFB SYSTEM OVERVIEW/ CONTROL AND RESPONSIBLE:</para>
+  <para/>
+  <para>### LOGIPAD EFB SYSTEM</para>
+  <para/>
+  <para>The Logipad Aero EFB System consists of following elements;</para>
+  <para/>
+  <para>#### HARDWARE CONSIDERATION :</para>
+  <para/>
+  <para>Logipad solutions is a set of type B software which can be using for electronic devices. We recommended all airlines should using COTS (Commercial Off-The-Shelf) hardware already approved by EASA and FAA for use as EFB device.</para>
+  <para/>
+  <para>The Hardware should compliance with the following standards: EASA AMC20-25 and FAA AC120-76C for:</para>
+  <para/>
+  <para>-   Electromagnetic Interference (EMI) Demonstrations</para>
+  <para>-   Environmental Testing (Rapid Depressurization)</para>
+  <para>-   **Batteries**</para>
+  <para/>
+  <para>    According to the test, these iPads do not affect the performance of aircraft systems, equipment or the ability to operate the aircraft; EFB hardware should be consideration in the following items:</para>
+  <para/>
+  <para>-   **Paper Data Removal**</para>
+  <para/>
+  <para>    Ideally, at least two operational EFBs would be needed to remove paper products that contain aeronautical charts, checklists, or other data required by the operating rules. The design of the EFB function is such that it would not allow for a single failure or common mode error may cause him loss of required aeronautical information.</para>
+  <para/>
+  <para>-   **Electrical Power Source**</para>
+  <para/>
+  <para>    For EFB Hardware, The System design must take into account the source of electrical power, the independence of the power sources for multiple EFBs, and the potential need for an independent battery source. Battery-powered EFBs that have aircraft power available for recharging the EFB battery are considered to have a suitable backup power source. EFBs that do not have a battery power source and that are used in place of paper products required by the operating rules must have at least one EFB connected to an aircraft power bus.</para>
+  <para/>
+  <para>-   **The replacement of Battery**</para>
+  <para/>
+  <para>    In the event that a battery is designed with the option of replacement, the established guidelines for battery replacement interval, as specified by the manufacturer of the original battery (or cell), should be observed. In instances where the manufacturer of the original battery (or cell) has not provided a specified replacement interval, the guidelines established by the manufacturer of the replaceable battery should be adhered to.</para>
+  <para/>
+  <para>-   **Battery Backup:**</para>
+  <para/>
+  <para>    Consider equipping the EFB PED with an alternate power supply to help achieve an acceptable level of safety. For EFBs without an aircraft power source, it's possible that a backup battery might be needed. In addition, backup batteries are required to comply with established lithium battery safety and testing standards concerning fire prevention, environmental testing, and performance testing, . These standards are implemented to ensure that the battery is adequately capable of functioning within the aircraft and fully compliance required of CAAs. The operator should also make sure that batteries are replaced as required, at least as often as the EFB manufacturer's recommended interval.</para>
+  <para/>
+  <para>#### EFB MOUNTING DEVICES :</para>
+  <para/>
+  <para>Logipad is an application and does not require specific mounting device requirements. However, operators should ensure that the mounting devices fully comply with the hardware devices used for the organization and are fully compliant with the requirements of all civil aviation authorities for safety operations.</para>
+  <para/>
+  <para>#### SOFTWARE/ EFB SYSTEM CONSIDERATION :</para>
+  <para/>
+  <para>**Software Classification**: EFB solution is a comprehensive of flight briefing applications, documentation, E-Form, which allow pilots to access their flight package on board the aircraft and also from home/ hotel/crew room via internet connection that replaces day of flight paper documentation. These applications meet all the requirements set by EASA/FAA in **AMC 20-25/FAA AC 120-76D** for use as **EFB Type B software**</para>
+  <para/>
+  <para>### CONTROL AND RESPOSIBILITIES.</para>
+  <para/>
+  <para>The Administration section of this system encompasses all individuals involved, the organizational structure and processes, and the administrative applications utilized for automating control processes. The following groups of people are proposed to interact with the system to enhance its effectiveness.</para>
+  <para/>
+  <para>-   **Head of Flight Operations / Director of Flight Operations**</para>
+  <para/>
+  <para>    The Head of Flight Operations (HOFO) or Director of Flight Operations (DFO) bears the overarching responsibility for all flight operations conducted under their Air Operator Certificate (AOC). This responsibility encompasses ensuring the safety and compliance of flight operations with aviation regulations, as well as overseeing the EFB system. The HOFO/ DFO reports directly to the Accountable Manager for all flight ops status</para>
+  <para/>
+  <para>-   **EFB Program Manager**</para>
+  <para/>
+  <para>    The EFB Program Manager oversees the system's operation and manages the lifecycle of EFB applications, from development to release, including testing protocols, version upgrades, deployment strategy, and communications plans. The EFB Program Manager oversees the system's operation and manages the lifecycle of EFB applications, from development to release, including testing protocols, version upgrades, deployment strategy, and communications plans. The operational structure of the operators dictates the position's independence or integration into the responsibilities of the Technical Office Manager or Chief Pilot.</para>
+  <para/>
+  <para>-   **EFB Administrator/ Operations Engineer**</para>
+  <para/>
+  <para>    The EFB Administrator/ Operations Engineer is responsible for managing the Logipad Portal and configuring the server parameters to align with Operator field. Upon receiving a flight package and documentation data, the EFB Administrator will update the database on a gateway and notify all users to update their iPads accordingly. Logipadâ€™s dynamic admin portal (MUI, Flight Manager, Jasper report server) has been created to assist with administrative tasks. Logipad Team also provided 24/7 Support Center for all clientâ€™s tickets.</para>
+  <para/>
+  <para>## Management User Interface (MUI) Over view :</para>
+  <para/>
+  <para>The Logipad Management User Interface (MUI) provides web services for retrieving and releasing user data, EFB data (including target associations, properties, metrics, and configuration data), and automation services for performing synchronous tasks for Operators. Furthermore, it assigns and deploys the user's data to users and devices, regardless of the hardware used (iOS, Windows, or Android devices).</para>
+  <para/>
+  <para>The main functions for MUI shall be listed as bellow:</para>
+  <para/>
+  <para>-   User management</para>
+  <para>-   Create news</para>
+  <para>-   Provide documents</para>
+  <para>-   Deploy e-Forms</para>
+  <para>-   Retrieving the completed e-Forms</para>
+  <para>-   User reports and statistics</para>
+  <para/>
+  <para>    The user management system is based on a user/role framework, which is customizable to suit the needs of individual users. Content access and permissions are determined based on the user's assigned role.</para>
+  <para/>
+  <para>### MUI Webservice/ Registration and login process;</para>
+  <para/>
+  <para>The Management User Interface also called Â« MUI Â». is a web-based interface.</para>
+  <para/>
+  <para>![](media/4bda1ba2895c85c5610b9e7e30dbc591.png)</para>
+  <para/>
+  <para>When accessing the website, a login window appears, where the user must enter his login name and password.</para>
+  <para/>
+  <para>Depending on the Operatorâ€™s \`configuration the local login or the login with a Directory service is possible</para>
+  <para/>
+  <para>After successful login you will get to the start page of MUI</para>
+  <para/>
+  <para>![](media/48785817e2ac4aec43271fe213c14667.png)</para>
+  <para/>
+  <para>### General section :</para>
+  <para/>
+  <para>#### Users/ Add Users :</para>
+  <para/>
+  <para>To add a User to the system click on the button Create a new user to open the dialog with the user settings. To edit an existing user click on the edit button ![](media/edf22fce7555a66cee18ead64765ea45.png)</para>
+  <para/>
+  <para>To delete an existing user press the delete button ![](media/7fe68188a246314a60aed1f85ddf14d4.png)</para>
+  <para/>
+  <para>The user dialog hat the following fileds :</para>
+  <para/>
+  <para>-   Login name</para>
+  <para/>
+  <para>    The login name for the user. This is the only mandatory field</para>
+  <para/>
+  <para>-   Full name</para>
+  <para>-   eMail</para>
+  <para/>
+  <para>![](media/e28d4f7bca8e99b0bc22e7532a15ed73.png)</para>
+  <para/>
+  <para>-   3LC</para>
+  <para/>
+  <para>    Three letter code</para>
+  <para/>
+  <para>-   Type</para>
+  <para/>
+  <para>    User type. This field is just used to organize the users. The select will automatically add new values</para>
+  <para/>
+  <para>-   Department</para>
+  <para/>
+  <para>    User department. The select will automatically add new values</para>
+  <para/>
+  <para>-   Content role</para>
+  <para/>
+  <para>    Role member ship for content assignment</para>
+  <para/>
+  <para>-   Access groups</para>
+  <para/>
+  <para>    Membership in Logipad security groups. For normal users the default values are ok</para>
+  <para/>
+  <para>-   Reportable</para>
+  <para/>
+  <para>    User should be listed in reports. Useful to exclude test accounts</para>
+  <para/>
+  <para>-   Active</para>
+  <para/>
+  <para>    Only â€˜activeâ€™ users are able to login</para>
+  <para/>
+  <para>-   Description</para>
+  <para/>
+  <para>#### Exporting and importing users :</para>
+  <para/>
+  <para>The user has also the option to export users or to perform a bulk import</para>
+  <para/>
+  <para>![](media/689d8fcf915014acbdeed44e8d59ec52.png)</para>
+  <para/>
+  <para>By pressing the Â« Arrow down Â» button on the right side of the button you can access the additional function.</para>
+  <para/>
+  <para>#### Exporting users :</para>
+  <para/>
+  <para>![](media/ef4aec36612f9583d964b11601fdced2.png)</para>
+  <para/>
+  <para>The user export has only the option to choose the seperator and the escaping. Result will be a CSV file.</para>
+  <para/>
+  <para>#### Importing users :</para>
+  <para/>
+  <para>![](media/e2e46233fd7ecd4041a16e316d57d398.png)</para>
+  <para/>
+  <para>The user import needs a separator and escaping for the file and needs a CSV file as input. The following</para>
+  <para/>
+  <para>fields could be used. Only the login name is mandatory:</para>
+  <para/>
+  <para>â€¢ Name</para>
+  <para/>
+  <para>â€¢ Type</para>
+  <para/>
+  <para>â€¢ FullName</para>
+  <para/>
+  <para>â€¢ Email</para>
+  <para/>
+  <para>â€¢ ThreeLc</para>
+  <para/>
+  <para>â€¢ Department</para>
+  <para/>
+  <para>â€¢ Description</para>
+  <para/>
+  <para>â€¢ IsActive</para>
+  <para/>
+  <para>â€¢ IsReportable</para>
+  <para/>
+  <para>â€¢ Roles</para>
+  <para/>
+  <para>The roles need to be separated by a â€˜,â€™.</para>
+  <para/>
+  <para>#### Content Roles :</para>
+  <para/>
+  <para>The second point in the general section is the management of content roles.</para>
+  <para/>
+  <para>![](media/e779a7ff7682c8a7bf1a2ca3e929195e.png)</para>
+  <para/>
+  <para>#### Create a content role</para>
+  <para/>
+  <para>The creation of a content role can be done by clicking the button **Create newcontent role** and assign the role name and type. The type is optional.</para>
+  <para/>
+  <para>![](media/cc9843767ff6a75f2a919a93346fcf87.png)</para>
+  <para/>
+  <para>#### Edit or delete a content role</para>
+  <para/>
+  <para>![](media/4e44f7f1d1adb9043cc3bcef4c8adf9e.png)You can delete a content role by clicking the delete button ![](media/1482e8fc9c71dddbf34fa43d39dddfd0.png) Edit will be start with the edit button</para>
+  <para/>
+  <para>#### Changing the user assignment to the role</para>
+  <para/>
+  <para>![](media/9cb7d566647f9047a47efbd91fb3916e.emf)The role assignment dialog will be visible after clicking on the small arrow at the beginning of the row.</para>
+  <para/>
+  <para>You can remove the member from the role by clicking ![](media/b98cc7ac91754adb5310a414061e2769.png)</para>
+  <para/>
+  <para>![](media/6da6a6855539b0c9bfda1bf745d3e5db.emf)After using the button **Add Users to content role** you will get an additional dialog to add users.</para>
+  <para/>
+  <para>#### Notification</para>
+  <para/>
+  <para>The last entry in the general section is used to create and monitor notifications.</para>
+  <para/>
+  <para>Important:</para>
+  <para/>
+  <para>After the message was created it cannot be changed.</para>
+  <para/>
+  <para>#### ![](media/e16a02e239b511733f4e086e44dc637f.emf)Creating a notification</para>
+  <para/>
+  <para>A notification can include:</para>
+  <para/>
+  <para>â€¢ Title</para>
+  <para/>
+  <para>â€¢ Message</para>
+  <para/>
+  <para>â€¢ Reference to Documents eForm, News or Weblink</para>
+  <para/>
+  <para>and can be assigned to</para>
+  <para/>
+  <para>â€¢ Users</para>
+  <para/>
+  <para>â€¢ Content Roles</para>
+  <para/>
+  <para>### EFB Approval Process Guidance :</para>
+  <para/>
+  <para>The Operator must obtain approval from their Local Aviation Authority/ National Aviation Authorities (NAAs) before officially using Logipad products for daily flight operations. The approval and certification process depend entirely on the authorities â€˜requirements. However, the general EFB system approval process should include the following main steps:</para>
+  <para/>
+  <para>-   **Pre- Application Phase:** The first phase starts when an organization or individual inquiries about or states a need for a change in some aspect of an aviation activity.</para>
+  <para>-   **Initial Application Review Phase**: The 2 nd phase starts when the applicant formally applies package for the Project evaluation</para>
+  <para>-   **Document Conformance Phase:** This phase commences when the aviation authorities (NAAs) review, analyze, and evaluate the application package. The NAAs may require a test session, compliance matrix/reports or risk assessment if deemed necessary.</para>
+  <para>-   **Inspection &amp; Demonstration Phase:** During this phase, the NAAA will finalize plans to inspect and evaluate the applicant's demonstration of their ability to perform in accordance with the formal application package's procedures, guidelines, and parameters. The NAAs can perform inspections and observe the applicant's demonstration through test sessions, tabletop exercises, ramp inspection programs, and other means.</para>
+  <para>-   **Final Certification Phase.** On this phase the Local Aviation Authority/ National Aviation Authorities (NAAs) finalizes by approval or acceptance by certificates, ops spec for the applicant. If the application is not approval or accepted, the applicant will be notice in phase 3 or 4</para>
+  <para/>
+  <para>## Flight manager - simple to use, control and export of flight data</para>
+  <para/>
+  <para>Flight Manager- Overview:</para>
+  <para/>
+  <para>The Flight Manager platform provides web services to view, select, generate, control and export flight related data including fuel logs, briefing attachment files, flight logs and briefing definitions for daily flight operations. In addition, you can view a list of previously created, activated and completed flights in the operation history</para>
+  <para/>
+  <para>### Briefing section / management, and generate/ upload all flights by status</para>
+  <para/>
+  <para>-   View all flights in a given period by status. Select the flight status (Prod, Test) and the status (Created, Activated, Finalized). Created means the Briefing Package has been created, activated means the Briefing Package is active and ready, and Finalized means all crew have completed and returned the Briefing Package</para>
+  <para/>
+  <para>###### ![](media/eb38df7e7a19fc9f9a96f5cdeab02f2b.png)**View all/ View Finalized/ View released.;** View all flights in a given period by status. Select the flight status (Prod, Test) and the status (Created, Activated, Finalized). Created means the Briefing Package has been created, activated means the Briefing Package is active and ready, and Finalized means all crew have completed and returned the Briefing Package</para>
+  <para/>
+  <para>Dynamic table: You can quickly search and find the flight you want using a table with filters. The following but not limited filter apply for the table</para>
+  <para/>
+  <para>-   Departure IATA code (3- Letter)</para>
+  <para>-   Departure ICAO code (3- Letter)</para>
+  <para>-   Arrival IATA code (3- Letter)</para>
+  <para>-   Arrival IATA code (4- Letter)</para>
+  <para>-   Flight (Flight number)</para>
+  <para>-   Aircraft (Aircraft registration)</para>
+  <para>-   Master user (Pilot in command user)</para>
+  <para>-   Departure time (The time when Actived the fight)</para>
+  <para>-   State (Prod/Test)</para>
+  <para>-   Status (Created/ Activated/ Finalized)</para>
+  <para/>
+  <para>    ![](media/56cdd9cd3f7451c51985dc2258932683.png)![](media/59e7d036274b13c3a650ecf8ce544d60.png)To see detail of the flight, select ![](media/14d622ebdf434ba392a1d60de83c0193.png), To see all the figure of the flight select ![](media/ff03b3759cffde7dfc24042e944af73a.png), to Download all attached files select , In additional is also able to display the briefing details or download the briefing, The dispatcher can make changes or see the crew composition for the fight in the Assignment sheet</para>
+  <para/>
+  <para>###### **New briefing:** The function allows you to manually create a new briefing package by selecting the correct Flight Planning System (.EFF) file and creating a briefing with your attachment files such as fuel receipts, ground reports and METAR/TAF. The crews for the flight have been selected by creating and simply releasing the flights.</para>
+  <para/>
+  <para>###### ![](media/efc1d3beabc97cbf9ab6edd4e7c38494.png)**![](media/4fc5e77b45710114d4d78efc4339e446.png) Import from PPS**: Automatically import and generate multiple flights directly from Flight Planning system from API connection. The crews for multiple flights have been selected by creating and simply releasing the flights</para>
+  <para/>
+  <para>###### Attachment Types: All attachment of the flights can be selected within briefing manager, Easy control and management</para>
+  <para/>
+  <para>### ![](media/754ea4d24382464a8ac88425e6ad746c.png)Definitions section: The section allows you can select, define and assign the layout ( Colour, Texts, Placement of contentâ€¦) which you want apply for your package</para>
+  <para/>
+  <para>## Logipad Webclient</para>
+  <para/>
+  <para>Logipad Webclient is a software application that facilitates access to and display of module form and document content through a web browser. It functions as an intermediary between users and web servers, enabling users to interact with websites, view multimedia content, support digital formats, and access various online services.</para>
+  <para/>
+  <para>### Logipad user interface :</para>
+  <para/>
+  <para>![](media/bb36c3641b73a57dc1ab61bbb214bc18.png)</para>
+  <para/>
+  <para>After Sign in to Logipad Identity System ( Keycloak), you will see home screen of Web client version. In addition, users have the option of accessing a content summary of the number of documents, electronic forms, and web addresses linked to Logipad. A list of news about the EFB system and acknowledgment button is also available. Logipad web client are available for all Operators users</para>
+  <para/>
+  <para>### Logipad Documents module :</para>
+  <para/>
+  <para>![](media/e4069d19e51201bffc646b23e73ab279.png)</para>
+  <para/>
+  <para>Documentation support for the following functions:</para>
+  <para/>
+  <para>Docs View Section: Select search option for documents using by</para>
+  <para/>
+  <para>-   Folder View</para>
+  <para>-   Total Documents</para>
+  <para>-   Number of Docs need confirmed</para>
+  <para/>
+  <para>Docs View Filter: selectively filter documents by:</para>
+  <para/>
+  <para>-   Name</para>
+  <para>-   Creation Date,</para>
+  <para>-   Document Priority</para>
+  <para>-   Document Confirmation Request Date</para>
+  <para/>
+  <para>Document Properties Section:</para>
+  <para/>
+  <para>In this section, you will find the options for each document in the laptop format. These include the following:</para>
+  <para/>
+  <para>-   document creation date,</para>
+  <para>-   document editing date,</para>
+  <para>-   document folder path,</para>
+  <para>-   document version number,</para>
+  <para>-   option to open document in another window,</para>
+  <para>-   document request date,</para>
+  <para>-   vertical priority color bar.</para>
+  <para>-   Confirmed section</para>
+  <para/>
+  <para>![](media/6d47a0cec016069e60bf90b098150903.png)</para>
+  <para/>
+  <para>Document in view option:</para>
+  <para/>
+  <para>![](media/188f1019e00fa3e2ee7605141e087e8f.png)</para>
+  <para/>
+  <para>### Logipad Eforms Module :</para>
+  <para/>
+  <para>Eforms Template/ History Section :</para>
+  <para/>
+  <para>This section allows you to select pre-made and initialized templates as well as to fill out and submit your own report forms. Additionally, the History section allows users to review previous transmissions and generate electronic reports.</para>
+  <para/>
+  <para>![](media/9756aadbef3aaf3610e840935830ec48.png)</para>
+  <para/>
+  <para>Document View Editing:</para>
+  <para/>
+  <para>With the report correction section. You can edit, fill in the information for the report directly on a web browser, Save the draft, as well as cancel and submit the report</para>
+  <para/>
+  <para>![](media/72bf42709ac378600e11d314853777bc.png)</para>
+  <para/>
+  <para>Show/Hide Eform Option:</para>
+  <para/>
+  <para>![](media/18becb82f0feeff3df12d5851172d270.png)</para>
+  <para/>
+  <para>### Logipad App Center</para>
+  <para/>
+  <para>This section contains the versions of the software that are compatible with different platforms. It also includes QR templates that can be used to download settings and install applications. Additionally, it features modules that are currently under development by Logipad. All Logipad future modules will be integrated into versions of the software that are compatible with each individual platforming an appropriate way.</para>
+  <para/>
+  <para>![](media/e5caf8b095ba24e1f0d4f37c4319748d.png)</para>
+  <para/>
+  <para>## Jasper report/ Logipad reporting server</para>
+  <para/>
+  <para>The Jasper Report Library is an open-source reporting engine for Logipad data regarding users, documents, briefings, and EFF data, as well as eForm reports. The Jasper Reporting Engine is entirely written in Java and is capable of utilizing data from any type of data source to produce pixel-perfect documents. These documents can be viewed, printed, or exported in a variety of document formats, including HTML, PDF, Excel, OpenOffice, MS Word, CSV, and others.</para>
+  <para/>
+  <para>### Administration Folder</para>
+  <para/>
+  <para>This folder contains a list of users categorized according to their access rights, thereby enabling the user to easily control statistics and edit access rights based on visualized report data.</para>
+  <para/>
+  <para>![](media/1ebf009077c74746b4126e3c7477d872.png)</para>
+  <para/>
+  <para>#### Access Group Memberships</para>
+  <para/>
+  <para>This folder contains a list of users categorized according to their access rights, thereby enabling the user to easily control statistics and edit access rights based on visualized report data.</para>
+  <para/>
+  <para>![](media/916f2a24b6d3756c75cbe3be2afd47c3.png)</para>
+  <para/>
+  <para>Report files could be export under:</para>
+  <para/>
+  <para>-   PDF</para>
+  <para>-   CSV</para>
+  <para>-   DOCx</para>
+  <para>-   RTF</para>
+  <para>-   ODT</para>
+  <para>-   ODS</para>
+  <para>-   XLSX</para>
+  <para>-   PPTX</para>
+  <para>-   CSV</para>
+  <para>-   Excel Metadata</para>
+  <para/>
+  <para>#### Active Report Server</para>
+  <para/>
+  <para>The active report server is utilized for the purpose of monitoring the overall status of users who utilize the software. The following information is employed in the following items bellow:</para>
+  <para/>
+  <para>-   Deactivated</para>
+  <para>-   Excluded</para>
+  <para>-   Reportable</para>
+  <para>-   Active</para>
+  <para>-   Last active time</para>
+  <para>-   ![](media/35bd8399c55018160a5c69c8efaf8643.png)Last Sync time</para>
+  <para/>
+  <para>#### User reports :</para>
+  <para/>
+  <para>For user reports folder, you could be able to see and analytics status report for each users or list of missing confirmation by user</para>
+  <para/>
+  <para>![](media/f14da13ae49cc1b7822c9369abe04ac2.png)</para>
+  <para/>
+  <para>Confirmation missing by user:</para>
+  <para/>
+  <para>![](media/b894913de99caa586568580f2b8b23c2.png)</para>
+  <para/>
+  <para>### Briefing Report Server :</para>
+  <para/>
+  <para>This folder contains two types of information regarding flights: one type is an overview of flights that have been released, and the other type is a list of flights (briefing package) that have not yet been finalized. The purpose of this folder is to facilitate the identification of the cause of any discrepancies.</para>
+  <para/>
+  <para>#### Not finalized briefing :</para>
+  <para/>
+  <para>The list of flights has not yet been finalized. The person in charge of flight operations (i.e., the "**master user**") has not yet completed the list. The release will be compiled according to the city pair, time, package status, revision</para>
+  <para/>
+  <para>![](media/38b3cd09e9b8eeb51f97719a333f6a1a.png)</para>
+  <para/>
+  <para>#### Release Briefings :</para>
+  <para/>
+  <para>In the release briefing section, each element of the list of flights created from flight planning data over a specified time period is displayed. To access the list, users are required to select the desired time period to initiate the search process. The system will then generate a list of corresponding flights, as well as a list of master users, a list of users, and a list of download times.</para>
+  <para/>
+  <para>![](media/e377bd848670c617104fe329fe311afd.png)</para>
+  <para/>
+  <para>### Document Reports</para>
+  <para/>
+  <para>The document folder has been developed to facilitate the extraction and analysis of reports according to the following criteria:</para>
+  <para/>
+  <para>-   **All documents:** This function is employed to summarize all documents, encompassing assignments, downloads, and read confirmations.</para>
+  <para>-   **Confirmation by role:** This feature enables the visualization of documents that have been confirmed by each role.</para>
+  <para>-   **Documents report:** This report provides a comprehensive overview of specific documents.</para>
+  <para>-   ![](media/355ebae944a62a3c992dbb657579e5fe.png)**Documents by role:** This report illustrates all documents that have been assigned to a particular role.</para>
+  <para/>
+  <para>#### ![](media/24f17b7b72be5e27e826c6aacb37c4e5.png)All Documents Folder:</para>
+  <para/>
+  <para>#### ![](media/016b6610b8c2a32cfd6b759bdddc148d.png)Confirmation by role:</para>
+  <para/>
+  <para>#### Document report:</para>
+  <para/>
+  <para>#### ![](media/f48285692a341e49b809b85082dfb49a.png)Documents by role:</para>
+  <para/>
+  <para>![](media/78e4c47b065dd2805eaaffb5f1ac9c65.png)</para>
+  <para/>
+  <para># LOGIPAD MODULES</para>
+  <para/>
+  <para>## OVERVIEW :</para>
+  <para/>
+  <para>Logipad Solution including the followings 3 modules:</para>
+  <para/>
+  <para>**Documentation module:** The airline's document management system enables users to display, manage, mark documents with priorities assigned, provision documents to content roles, make remarks for various types of documents (PDFs, XMLs, WORDs,â€¦), and distribute operational documentation. The operational documentation includes both manufacture and operator manuals.</para>
+  <para/>
+  <para>**Briefing Module:** The electronic briefing system provides pilots with a series of folders containing essential information such as the Operational Flight Plan (OFP), weather updates, Notice to Airmen (NOTAM), Loadsheet information, NOTOC and any additional details required. The system has a flexible layout and structure to ensure that all information is presented in a clear and logical manner.</para>
+  <para/>
+  <para>**Eform module:** The Digital Forms solution allows you to create your own electronic forms in an intuitive and logical way using a drag-and-drop editor or by using existing templates. The modules can be used for web services, IOS devices and direct synchronization between different devices and platforms, increasing the efficiency of air-to-ground communication management.</para>
+  <para/>
+  <para>## DOCUMENTATION MODULE :</para>
+  <para/>
+  <para>One of the central points of Logipad is the management and role based provisioning of documents.</para>
+  <para/>
+  <para>Documents can be additionally equipped with further attributes to extend their organization. Available functions:</para>
+  <para/>
+  <para>â€¢ Provision documents to content roles</para>
+  <para/>
+  <para>â€¢ Mark documents with flags</para>
+  <para/>
+  <para>â€“ Confirmable</para>
+  <para/>
+  <para>â€“ Exportable</para>
+  <para/>
+  <para>â€“ Indexable</para>
+  <para/>
+  <para>â€¢ Priorities for documents can be assigned</para>
+  <para/>
+  <para>â€¢ Control whether the documents should be opened in the app or in an external application</para>
+  <para/>
+  <para>â€¢ Control unit to publish the documents time-controlled. â€œValid from:â€� and â€œValid until:â€� fields.</para>
+  <para/>
+  <para>â€¢ Comment function for the internal description</para>
+  <para/>
+  <para>â€¢ Control to turn on the inventory when opening the document</para>
+  <para/>
+  <para>The system allows the publishing of different content types like:</para>
+  <para/>
+  <para>â€¢ video</para>
+  <para/>
+  <para>â€¢ txt</para>
+  <para/>
+  <para>â€¢ epub</para>
+  <para/>
+  <para>â€¢ zip</para>
+  <para/>
+  <para>â€¢ pd</para>
+  <para/>
+  <para>â€¢ video</para>
+  <para/>
+  <para>â€¢ txt</para>
+  <para/>
+  <para>â€¢ epub</para>
+  <para/>
+  <para>â€¢ zip</para>
+  <para/>
+  <para>â€¢ pdf</para>
+  <para/>
+  <para>â€¢ htmlzip</para>
+  <para/>
+  <para>â€¢ html</para>
+  <para/>
+  <para>â€¢ doc</para>
+  <para/>
+  <para>â€¢ docx</para>
+  <para/>
+  <para>â€¢ xls</para>
+  <para/>
+  <para>â€¢ xlsx</para>
+  <para/>
+  <para>â€¢ ppt</para>
+  <para/>
+  <para>â€¢ pptx</para>
+  <para/>
+  <para>### Organize documents</para>
+  <para/>
+  <para>![](media/8cd5d7afc1f4f324020fb79e90b08c3f.emf)Documents are organized in a folder structure. A Folder can be associated with a document template to assign standard properties.</para>
+  <para/>
+  <para>The two icons at the top right-hand side activate the Folder View or the Document View.</para>
+  <para/>
+  <para>-   ![](media/3672be96da21cf177a1fd0af1445cebe.png) Folder view</para>
+  <para/>
+  <para>    Will show the folder structure with subfolders and files.</para>
+  <para/>
+  <para>    -   ![](media/495c7b16adef0d4e98da6ccb1398260b.png)Document view</para>
+  <para/>
+  <para>        display all documents (including documents within subfolders).</para>
+  <para/>
+  <para>### Document templates</para>
+  <para/>
+  <para>Document templates define a set of properties/settings that later will automatically be applied to new documents.</para>
+  <para/>
+  <para>The first button *Create new Document* is a dropdown select button. The standard selection is *Create new Document*. Other options are:</para>
+  <para/>
+  <para>â€¢ Upload multiple documents</para>
+  <para/>
+  <para>â€¢ Document Types</para>
+  <para/>
+  <para>â€¢ Document Templates</para>
+  <para/>
+  <para>![](media/fcdc0a5b6c849f643e0b308f660262c4.png)</para>
+  <para/>
+  <para>If Document Templates is selected, a Document Template is created to associate default properties once a document is assigned to that template</para>
+  <para/>
+  <para>![](media/abb2423a30762a21bf9be5b79919bc95.png)</para>
+  <para/>
+  <para>### Create Folder</para>
+  <para/>
+  <para>![](media/9cd096b104d0176542fe214b31aef8c6.png)</para>
+  <para/>
+  <para>The main attribute of the folder is the Display Name additionally a document template can be assigned.</para>
+  <para/>
+  <para>If you donâ€™t assign a template the folder will inherit the template of the parent folder. Access Rules are used to limit administrative access.</para>
+  <para/>
+  <para>### Publish a single document</para>
+  <para/>
+  <para>![](media/05ff79ed8c3ff45a46e7296e98e588ca.emf)</para>
+  <para/>
+  <para>A document has two sections of attributes:</para>
+  <para/>
+  <para>â€¢ Document attributes</para>
+  <para/>
+  <para>â€“ Display Name</para>
+  <para/>
+  <para>â€“ Folder</para>
+  <para/>
+  <para>â€“ Content Roles</para>
+  <para/>
+  <para>â€“ Document Type</para>
+  <para/>
+  <para>â€“ State</para>
+  <para/>
+  <para>â€“ Document Priority</para>
+  <para/>
+  <para>â€“ Confirmable</para>
+  <para/>
+  <para>Only if â€˜Confirmableâ€™ is activated the â€˜read confirmation requiredâ€™ will be activated on the</para>
+  <para/>
+  <para>version.</para>
+  <para/>
+  <para>â€“ Indexable</para>
+  <para/>
+  <para>Included in fulltext index.</para>
+  <para/>
+  <para>â€“ Exportable</para>
+  <para/>
+  <para>User can print the document and export it to other apps.</para>
+  <para/>
+  <para>â€“ Open in External App</para>
+  <para/>
+  <para>â€¢ Version attributes</para>
+  <para/>
+  <para>â€“ Revision</para>
+  <para/>
+  <para>â€“ Is visible</para>
+  <para/>
+  <para>â€“ Valid from</para>
+  <para/>
+  <para>â€“ Valid To</para>
+  <para/>
+  <para>â€“ Comment</para>
+  <para/>
+  <para>â€“ Require read confirmation</para>
+  <para/>
+  <para>### Publisher multiple documents</para>
+  <para/>
+  <para>![](media/b737a8459f36d22b189a69a92a869926.png)</para>
+  <para/>
+  <para>You can select the document with a file dialog or use â€œDrag and dropâ€�.</para>
+  <para/>
+  <para>During the upload you can only assign some attributes.</para>
+  <para/>
+  <para>â€¢ Folder</para>
+  <para/>
+  <para>The default folder for the upload is where you started the dialog.</para>
+  <para/>
+  <para>â€¢ Use folder template</para>
+  <para/>
+  <para>Should an existing template be applied</para>
+  <para/>
+  <para>â€¢ Comment</para>
+  <para/>
+  <para>â€¢ State</para>
+  <para/>
+  <para>## BRIEFING MODULE :</para>
+  <para/>
+  <para>The Electronic Flight Folder contains flight plans, NOTAMs, weather charts and additional flight information, structured according to our customer's operational manual and briefing definition and fully compliant with the ARINC 633-2 standard. Briefing data can be exchanged between multiple devices and platforms. The management of your data can also be customized, such as fuel consumption data and the corresponding prices stored in the backend. The data can be transferred to other systems, such as for fuel optimization. Additional information can be collected via separate sections or self-built eForms.</para>
+  <para/>
+  <para>### User interface layout :</para>
+  <para/>
+  <para>#### Logipad Navigation bar :</para>
+  <para/>
+  <para>Logipad Navigation bar are implemented in the following section :</para>
+  <para/>
+  <para>Home Screen:</para>
+  <para/>
+  <para>General update, Review Updated information and notification section for all modules</para>
+  <para/>
+  <para>Briefing section</para>
+  <para/>
+  <para>The data transmitted to your EFB application and into the Logipad app is called a Briefing. A Briefing contains all flight scheduling data, such as aircraft status, flight plan information, and weather charts. The Briefing section allows you to activate, finalize and collect all flight relevant data. It also ensures real-time updates between crews.</para>
+  <para/>
+  <para>### Briefing info and standards layout concept</para>
+  <para/>
+  <para>#### Briefing Info</para>
+  <para/>
+  <para>This is the Briefing main page, here you can find an overview of the active Leg and navigate the different flight phase modules:</para>
+  <para/>
+  <para>-   Flight summary (Basic Trip summary info)</para>
+  <para>-   OFP</para>
+  <para>-   Weather &amp; NOTAMs</para>
+  <para>-   Weather Charts</para>
+  <para>-   Flight Data</para>
+  <para>-   Additional Documents</para>
+  <para/>
+  <para>###### Flight Summary</para>
+  <para/>
+  <para>The section contains General info of OFP from Flight Planning system source regarding to the following topic:</para>
+  <para/>
+  <para>-   Flight Scheduling Data (Date &amp; Time, Date, A/C registration)</para>
+  <para>-   Flight Planning Data</para>
+  <para>-   Document/ Crew Infor</para>
+  <para>-   Flight release acceptance and remark</para>
+  <para/>
+  <para>![](media/3b8abae1142d0ec2fa981468a2623bd7.png)</para>
+  <para/>
+  <para>###### Weather &amp; NOTAMs</para>
+  <para/>
+  <para>The section in Briefing Package contains all information from Operator weather data source (PPS system or Independent sources) . All information have been handle and transfer with Logipad MUI platform which generates to general Briefing package (ARINC format compliance)</para>
+  <para/>
+  <para>-   Airport Weather : ( Destination, Departure and Alternate Airport ) METAR &amp; TAF reports</para>
+  <para>-   Wx Charts (Different charts / SIG / Winds Aloft / etc., as planned)</para>
+  <para/>
+  <para>![](media/45f053100dd1f5946418696f85b3c076.png)</para>
+  <para/>
+  <para>###### Flight Data</para>
+  <para/>
+  <para>The section in Briefing Package contains all information for dispatch, monitor the progress the flight and all relevant data as Operatorâ€™s Layout (Alternate Route, Plotting Chart, ATC Flight Plan, Fuel &amp; Mass) regarding the following section:</para>
+  <para/>
+  <para>-   Pre- Flight</para>
+  <para>-   In- Flight</para>
+  <para>-   Post- Flight</para>
+  <para/>
+  <para>###### Additional Documents</para>
+  <para/>
+  <para>This section is used to provide additional documents previously received in paper format (Permit docs, Loadsheet, NOTOC,Paper Flight Planâ€¦)</para>
+  <para/>
+  <para>![](media/243c8d0831db394ee0f3f3251a29dee5.png)</para>
+  <para/>
+  <para>#### Data Entry Field/ What need to know ?</para>
+  <para/>
+  <para>Logipad EFB solution using a set of different entry field in order to support users while using App.</para>
+  <para/>
+  <para>-   Mandatory Entry Field :</para>
+  <para/>
+  <para>    Entry fields with a red frame are mandatory fields and must contain a value before the briefing can be processed</para>
+  <para/>
+  <para>-   Optional Entry Field :</para>
+  <para/>
+  <para>    Entry fields with a green frame are optional fields and contain a references information for the flight</para>
+  <para/>
+  <para>-   Data Entry Format Restriction :</para>
+  <para/>
+  <para>    ![](media/985bc21bc406810c6f16dc91263f0302.png)Whenever you see a data entry format like DD.MM.YY or hh:mm you must followed the format to entry into the field</para>
+  <para/>
+  <para>### Briefing package / Activated and transfer data during the flight</para>
+  <para/>
+  <para>#### How to active a Briefing.</para>
+  <para/>
+  <para>Before you can enter and modify data inside a Briefing, the Briefing needs to be activated. Activation can be done by the Master User or by the Non-Master User. After activation, the Briefing icon is green coloured.</para>
+  <para/>
+  <para>![](media/aa5d5ae6bbb2b36c01019ec354074b90.png)</para>
+  <para/>
+  <para>###### Role: Master User</para>
+  <para/>
+  <para>![](media/5a7c968a6b000f4eb5d74b50b68ed5fe.png)This is the user responsible to finalize and send the completed Briefing. In general, the PIC is assigned to the â€œMaster Userâ€� role. The crown above the briefing icon indicates the assigned â€œMaster Userâ€� role.</para>
+  <para/>
+  <para>###### Role: Non- Master Use</para>
+  <para/>
+  <para>![](media/a47f2c0e17e186a685c72e96f230dab8.png)The â€œNon-Masterâ€� user does not own a crown. In general, the F/O is assigned to the â€œNon-Masterâ€� role and cannot â€œfinalizeâ€� a Briefing</para>
+  <para/>
+  <para>The Master-User and Non-Master User concept assures that only complete data collected from both devices are sent to the server (single channel concept)</para>
+  <para/>
+  <para>###### To Activate a Briefing as a Master User (Briefing icon with Crow icon)</para>
+  <para/>
+  <para>-   ![](media/a2ef8a2f95eb1a081edd5e5a858abc9f.png)First press on â€œBriefingsâ€� in the Navigation Bar to see the relevant briefings assigned to you</para>
+  <para>-   Then, on the relevant Briefing, press on the three little dots on the right-hand side and press â€œActivate master copyâ€�</para>
+  <para>-   Press â€œActivateâ€� and observe the briefing Icon status change from yellow â€œreadyâ€� to green â€œactive![](media/3755a8c06750b18bf8828d0b00bbc20b.png)â€�</para>
+  <para/>
+  <para>![](media/d76defcc54d65fa1db17a92f6765ef01.png)</para>
+  <para/>
+  <para>###### How to active a Briefing as a non-Master User (briefing Icon without Crow)</para>
+  <para/>
+  <para>-   ![](media/a2ef8a2f95eb1a081edd5e5a858abc9f.png)First press on â€œBriefingsâ€� in the Navigation Bar to see the relevant briefings assigned to you</para>
+  <para>-   Then, on the relevant Briefing, press on the three little dots on the right-hand side and press â€œActivate non master copyâ€�</para>
+  <para/>
+  <para>![](media/e18da8560468d1f5cf8038852dd63ef2.png)</para>
+  <para/>
+  <para>-   Press â€œActivateâ€� and observe the briefing Icon status change from yellow â€œreadyâ€� to green â€œactiveâ€�</para>
+  <para/>
+  <para>    ![](media/d76defcc54d65fa1db17a92f6765ef01.png)  **Important**</para>
+  <para/>
+  <para>    If the Non-Master User is activating the Briefing, and does all the entries for the trip, then he/she must transfer the briefing to the Master-User Device at the end of the flight, in order to perform the â€œfinalizationâ€� of the Briefing. Only the **Master-User** can finalize and send a briefing.</para>
+  <para/>
+  <para>#### Roll Back Briefing Activation</para>
+  <para/>
+  <para>If for any reason you need to roll back a briefing activation (activation of the wrong flight or troubleshooting), here you can find the necessary steps to do so.</para>
+  <para/>
+  <para>-   ![](media/f9ab351a1ec3400cea9d65a95ae8f8a2.png)![](media/4ca4bb237b64f37b6ffc95cc0f0dc163.png)![](media/455fbf9ac04a109512ec119d2f012376.jpeg)Press the information icon to see the briefing properties</para>
+  <para>-   ![](media/ddcafccd99f754ecd3c572cc2258095f.png)Press the energy icon to see the briefing Actions</para>
+  <para>-   Press â€˜â€™Roll back activationâ€™â€™ button</para>
+  <para>-   ![](media/bc12ca61cd5526019da394b9845cec8d.png)Confirm and check that the briefing status reverts to the yellow â€œreadyâ€� state</para>
+  <para/>
+  <para>#### ![](media/ae230f22ceb55c89c09b2d00f5080d05.png)Real time Sync and Data exchanged</para>
+  <para/>
+  <para>Logipad automatically detects all other devices nearby. Logipad selects the best possible available connection (Bluetooth, Access Point, or Wi-Fi Direct) and establishes a connection in the background, automatically synchronizing data in real-time which is entered by pilots. You can save times and effort for flight operation between Master user and Non-Master user accounts. In addition to connectors, we have developed easy-to-use functions to transfer data to other applications. Performance data from other applications can be imported into Logipad or vice versa. You can exchange data with other applications, provided this is supported by third-party vendors. The steps to steps</para>
+  <para/>
+  <para>For the briefing active data exchanged betwen crews, the connection between the two devices must been established.</para>
+  <para/>
+  <para>-   Press the communication icon ![](media/ac91b8c35b02f6880ce176cdb76a2038.png) in the sending data devices</para>
+  <para/>
+  <para>![](media/603c7dc3606c8955c2daf4f970b5670e.png)</para>
+  <para/>
+  <para>-   Press accept on the receiving device</para>
+  <para/>
+  <para>![](media/ae7574a97b1371c1f2d4223c0847e2d3.png)</para>
+  <para/>
+  <para>-   A successfully established connection is indicated by a green band on both devices.</para>
+  <para/>
+  <para>    ![](media/7dcabc1fe6b1fdb8841988d4095461f9.png)</para>
+  <para/>
+  <para>-   ![](media/c96dba96491698187195562190db3032.png)To get the transfer option press on the three dots</para>
+  <para/>
+  <para>![](media/43d7b08e977ca6f7e6c965e1915e231a.png)</para>
+  <para/>
+  <para>-   To hand over the â€œactive briefingâ€� and, therefore, make it possible for your colleague to enter data (e.g. for a flight log, RVSM checklist &amp; fuel entry), press here</para>
+  <para>-   To back up data on the other device (e.g. after a waypoint check), press here (only data is sent to the other device, the activation of the briefing remains on your device)</para>
+  <para>-   â€œ**Failover copy**â€� is the new status of the briefing that remains on your EFB after transferring the â€œactive briefingâ€� to another device. This is a redundant copy with the data stored before transferring the â€œactive briefingâ€� to your colleagueâ€™s EFB. The â€œfailover copyâ€� can be activated in case the â€œactive briefing on the other device becomes corrupted or if there is a hardware failure.</para>
+  <para/>
+  <para>IMPORTANT: When an active briefing is transmitted, the briefing on the sending device (â€œfailover copyâ€�), becomes â€œread onlyâ€� and the briefing on the receiving EFB becomes â€œactiveâ€�, and is the only briefing that can accept crew inputs.</para>
+  <para/>
+  <para>If the Non-Master User is activating the Briefing, and does all the entries for the trip, then he/she must transfer the briefing to the Master-User Device at the end of the flight, in order to perform the â€œfinalizationâ€� of the Briefing. Only the **Master-User** can finalize and send a briefing.</para>
+  <para/>
+  <para>#### Force Failover Function/ Transfer role between devices for abnormal operation</para>
+  <para/>
+  <para>If the sending devices ( non-master users) unbale to transfer briefingd data due to connection, you can using the â€œForce Failoverâ€� function. This function allows the â€œNon-Master Userâ€� to become the â€œMaster Userâ€� and therefore, finalize and send the Briefing. In order to do so please follow the steps to steps as bellow:</para>
+  <para/>
+  <para>-   Tap â€œ informationâ€� ![](media/06c3471df25b4f2226622cc978ac41b6.png) icon for briefing properties</para>
+  <para/>
+  <para>![](media/0be2335bb178d31fa0794e3414a5a71a.png)</para>
+  <para/>
+  <para>-   Tap â€˜â€™enery â€˜â€™ icon ![](media/35f67cb33a09fdba0fa4992cd207c9ef.png) for Briefing actions</para>
+  <para>-   Tap â€œ Force failoverâ€� button</para>
+  <para/>
+  <para>![](media/8ebf29ea770a13df97a41c45436d12de.png)</para>
+  <para/>
+  <para>## EFORMS MODULE :</para>
+  <para/>
+  <para>### Overview :</para>
+  <para/>
+  <para>The Digital Forms solution allows you to create your own electronic forms in an intuitive and logical way using a drag-and-drop editor or by using existing templates</para>
+  <para/>
+  <para>Logipad offers 3 subsidinary applications to for generated E- Forms templated, Data entry field in the template and send, Data collection and analysis as followed:</para>
+  <para/>
+  <para>-   E- Forms Generator (Creating the operational form templated by your own)</para>
+  <para>-   E-Form Modules (To view, Entry field in and send Operational Forms when needed)</para>
+  <para>-   Report view dashboard (For post flight reports data collection)</para>
+  <para/>
+  <para>### eForm Generator :</para>
+  <para/>
+  <para>The Digital Forms solution allows users to easily and intuitively create custom electronic forms using either a drag-and-drop editor or pre-existing templates. The tools working in Computer tools and direct sync with Eform modules in EFB devices for templated updated.</para>
+  <para/>
+  <para>-   General ERP ![](media/58a4a71099e9c3b32f06432b2ddfbe2a.png) function :</para>
+  <para/>
+  <para>    ![](media/9e49b8635094ef54db6f4d72a87e5eef.png)With the General section you are able to see total existing Eform template on Logipad System, retrieve previous erp templated and re-updated in case you need modified, dowload erp, export files and erp template or created your new template</para>
+  <para/>
+  <para>-   Editable ![](media/c78abcbfadb2cefbf9c741e05d9184b8.png) function :</para>
+  <para/>
+  <para>    With Editable function you can able start to create your operation digital templated by your own requirement with out Coding. Our dynamics field have been deploy to support for you.</para>
+  <para/>
+  <para>    The dynamic field have been set in 4 different fields with different purposes :</para>
+  <para/>
+  <para>-   Layout- Created Section, Row for Eform</para>
+  <para>-   Input control- Created text area, time &amp; date picker, select and input</para>
+  <para>-   Buttons â€“ Created buttons for Radio and Checkbox</para>
+  <para>-   Views- Created table, Dynamic table, Navtab,..</para>
+  <para>-   \------- Created support field for Draw, picture attached or Signature signed</para>
+  <para/>
+  <para>![](media/c69688d29d945d6682b9263b80eccb49.png)</para>
+  <para/>
+  <para>-   eForms Calculations :</para>
+  <para/>
+  <para>    The Editable function allows you to easily select the calculation method and field you want, and the result will be updated accordingly.</para>
+  <para/>
+  <para>![](media/43397a3bfb7c9f9d95d205eb3e0b3661.png)</para>
+  <para/>
+  <para>The eForms module offers several subfunctions for calculations :</para>
+  <para/>
+  <para>-   **Time Difference** for effortless time conversion and calculation,</para>
+  <para>-   **Date Time Difference** for calculating the duration between two dates,</para>
+  <para>-   **Number Sum** for easily summing numbers without a traditional calculator,.</para>
+  <para>-   **Number Difference** : Subtraction the number easily without tradition calculator</para>
+  <para/>
+  <para>![](media/668259db4e1a434aa3477178ca4c8b92.png)</para>
+  <para/>
+  <para># EFB APPROVAL PROCESS</para>
+  <para/>
+  <para>## EFB Approval Process Guidance for Operator :</para>
+  <para/>
+  <para>The Operator must obtain approval from their Local Aviation Authority/ National Aviation Authorities (NAAs) before officially using Logipad products for daily flight operations. The approval and certification process depend entirely on the authorities â€˜requirementsâ€™ however the policies aligns with ICAO DOC 10020 (Manual of Electronic Flight Bags) which states that operational evaluation and approval is only required for commercial air transport operators. The same policy applies to EASA Part Implementing rules of Annex IV,V,VI and VII also referred to as :</para>
+  <para/>
+  <para>-   Part ORO (annex III Organisation Requirements for Air Operations)</para>
+  <para>    -   Part CAT (annex IV Commercial Air Transport)</para>
+  <para>        -   Part SPA (annex V Special Approvals â€“ EFB)</para>
+  <para>        -   Part NCC (annex VI Non Commercial Complex)</para>
+  <para/>
+  <para>            However, the general EFB system approval process should include the following main steps:</para>
+  <para/>
+  <para>-   **Pre- Application Phase:** The first phase starts when an organization or individual inquiries about or states a need for a change in some aspect of an aviation activity.</para>
+  <para>-   **Initial Application Review Phase**: The 2 nd phase starts when the applicant formally applies package for the Project evaluation</para>
+  <para>-   **Document Conformance Phase:** This phase commences when the aviation authorities (NAAs) review, analyze, and evaluate the application package. The NAAs may require a test session, compliance matrix/reports or risk assessment if deemed necessary.</para>
+  <para>-   **Inspection &amp; Demonstration Phase:** During this phase, the NAAA will finalize plans to inspect and evaluate the applicant's demonstration of their ability to perform in accordance with the formal application package's procedures, guidelines, and parameters. The NAAs can perform inspections and observe the applicant's demonstration through test sessions, tabletop exercises, ramp inspection programs, and other means.</para>
+  <para>-   **Final Certification Phase.** On this phase the Local Aviation Authority/ National Aviation Authorities (NAAs) finalizes by approval or acceptance by certificates, ops spec for the applicant. If the application is not approval or accepted, the applicant will be notice in phase 3 or 4</para>
+  <para/>
+  <para># HUMAN FACTOR MITIGATION</para>
+  <para/>
+  <para>## General :</para>
+  <para/>
+  <para>### The operator should carry out an assessment of the human-machine interface and aspects governing crew coordination when using the EFB. Whenever possible, the EFB user interface philosophy should be consistent (but not necessarily identical) with the flight deck design philosophy. The review of the complete system should include but not limited to:</para>
+  <para/>
+  <para>-   General considerations including workload, usability, integration of the EFB into the flight deck, display and lighting issues, system shutdown, and system failures;</para>
+  <para>-   Physical placement issues, including stowage area, use of unsecured EFBs, design and placement of mounting devices;</para>
+  <para>-   Considerations for interference with anthropometric constraints, cockpit ventilation, and speaker sound;</para>
+  <para>-   Training and procedures considerations, including training on using EFB applications, EFB policy and procedures manual, fidelity of EFB training device, and mechanisms for gathering user feedback on EFB use;</para>
+  <para>-   Hardware considerations;</para>
+  <para>-   Software considerations</para>
+  <para/>
+  <para># EFB PRINCIPLE CREW PROCEDURES</para>
+  <para/>
+  <para>## General</para>
+  <para/>
+  <para>### The operator should have procedures for using the EFB in conjunction with the other flight deck equipment. The procedures should adress and focust on the following topics :</para>
+  <para/>
+  <para>-   Which information source will be primary;</para>
+  <para>-   Which source will be used as secondary information;</para>
+  <para>-   Under what conditions to use the secondary source; and</para>
+  <para>-   What actions to take when information provided by an EFB does not agree with that from other flight deck sources, or, if more than one EFB is used, when one EFB disagrees with another.</para>
+  <para/>
+  <para>### The Operators should include the requirements for EFB availability in the Operations Manual and/or as part of the minimum equipment list.</para>
+  <para/>
+  <para>### Flight crews should not have to confirm the revision dates for other databases that would not adversely affect flight operations in case of outdated data. Procedures should specify what actions to take if the software applications or databases loaded on the EFB are out-of-date.</para>
+  <para/>
+  <para>## Workload and Coordination</para>
+  <para/>
+  <para>### In general, using an EFB should not increase crewâ€™s workload during critical phases of flight. For other flight phases, crew operating procedures should be designed to mitigate and/or control additional workload created by using an EFB.</para>
+  <para/>
+  <para>### Crews Workload should be distributed between flight crew members to ensure ease of use and continued monitoring of other flight crew functions and aircraft equipment. The procedures should include specification of the phases of flight at which the flight crew may not use the EFB, if applicable.</para>
+  <para/>
+  <para>## Reporting</para>
+  <para/>
+  <para>### A reporting system for EFB failures should be established. Procedures should be in place to inform maintenance and flight crews about a fault or failure of the EFB, including actions to isolate it until corrective action is taken.</para>
+  <para/>
+  <para>## Recommendation practice for EFB admin procedures</para>
+  <para/>
+  <para>### Data Generation and Validation before generated package</para>
+  <para/>
+  <para>The EFB Administrator validates the data and flight plan data with Flight Dispatch Team, ensuring that it is complete, correct, and traceable. This includes verifying performance data, weather, NOTAMs, and any other relevant information which integrated with Logipad system</para>
+  <para/>
+  <para>### Ensure that the release is sent to the Test Server prior to publishing:</para>
+  <para/>
+  <para>Prior to updating the prod environment, the EFB Administrator publishes the new data on a test server first. This step allows for testing and minimizes operational risk in case of errors.</para>
+  <para/>
+  <para>The system should log all updates to ensure traceability in the event of discrepancies.</para>
+  <para/>
+  <para>### EFB Notification and Testing:</para>
+  <para/>
+  <para>The EFB Administrator has informed the EFB Manager that new data is available on the backup server for validation. The EFB Manager or responsible parties should verify that all data are correct and current.</para>
+  <para/>
+  <para>Once the EFB Manager confirms that the data is satisfactory, the EFB Administrator will publish the final data and release the EFB notification to all users. This notification will include a summary of the update information in each time release, the version number, and other pertinent details to ensure that flight data is always current.</para>
+  <para/>
+  <para>If the data is unsatisfactory, it is sent back to the EFB Administrator for update new revision</para>
+  <para/>
+  <para>The EFB Administrator continuously monitors synchronization through the Flight Manager portal, MUI to ensure that all end-users (flight crew, dispatch) update their devices. Any discrepancies must be addressed immediately.</para>
+  <para/>
+  <para>### Back-up system :</para>
+  <para/>
+  <para>Ensure a reliable backup system is in place for both the back-up server and manual processes (e.g., printed documents) in case of an EFB or system outage. This provides a fallback mechanism for dispatchers and flight crews to access critical flight data.</para>
+  <para/>
+  <para>## Recommendation practice for Flight Crew procedures</para>
+  <para/>
+  <para>### Pre- Flight Preparation :</para>
+  <para/>
+  <para>Flight crews must synchronize their EFBs and cross-check with the EFB Notification, EFB New Data Package to ensure they have the latest data, including flight plans, weather updates, and ARINC 633 briefing packages. For Briefing Package. The crew team should always check the flight ID, master user information, city pair, with their roster schedule to ensure that they received the correct package from the flight planning system.</para>
+  <para/>
+  <para>### In Flight updates :</para>
+  <para/>
+  <para>During flight, it is the responsibility of the crew to gather and record any deviations from the planned flight path, performance, or weather conditions. This data is then entered into the EFF system or documented. The crew should cross-check with the flight checklist to ensure that no information has been missed. The master user is responsible for final checking and releasing the package when all information has been filled in.</para>
+  <para/>
+  <para>### Post Flight Synchronization :</para>
+  <para/>
+  <para>Following the flight, the crews will synchronize their EFBs with the Logipad server once more. This will ensure that all flights have been sent successfully for briefing and that the Eform has been released from Outlook. If necessary, the Eform will be resent. Consult with the EFB team to verify that all pertinent information regarding their duties has been thoroughly reviewed.</para>
+  <para/>
+  <para>## Recommendation practice for OCC/ Flight Dispatch procedures</para>
+  <para/>
+  <para>### Pre- Flight Preparation :</para>
+  <para/>
+  <para>Flight dispatchers utilize the Flight Manager portal to prepare, verify, and manually dispatch flight packages to the crew. These packages include flight plans, NOTAMs, and performance data as required. Dispatchers must verify the accuracy of the data and coordinate with the EFB team to ensure that the crew has synchronized their devices prior to departure.</para>
+  <para/>
+  <para>### In- Flight Monitoring :</para>
+  <para/>
+  <para>Dispatchers are responsible for continuously monitoring flight progress through the Flight Manager portal with the EFB team in real time. They are also responsible for communicating any necessary changes to the crew, especially in cases of weather updates or route adjustments that require updated flight packages</para>
+  <para/>
+  <para>### Post â€“ Flight Data collection :</para>
+  <para/>
+  <para>The dispatcher will coordinate with the EFB team to verify that all Logipad data is current and stored in the server. The data is stored in the central system and backed up to ensure full traceability for future auditing or operational review.</para>
+  <para/>
+  <para># EFB TRAINING PROGRAM</para>
+  <para/>
+  <para>## EFB Training guidance :</para>
+  <para/>
+  <para>### The use of the EFB should be conditional on appropriate training. Training should be in accordance with the operatorâ€™s SOP (including abnormal procedures) and should include:</para>
+  <para/>
+  <para>### An overview of the system architecture;</para>
+  <para/>
+  <para>### Pre-flight checks of the system;</para>
+  <para/>
+  <para>### Limitations of the system ;</para>
+  <para/>
+  <para>### The use of each operational software application;</para>
+  <para/>
+  <para>### Restrictions on the use of the system, including when some or all of the EFB functions are not available;</para>
+  <para/>
+  <para>### The conditions (including phases of flight) under which the EFB may not be used;</para>
+  <para/>
+  <para>### Procedures for cross-checking data entry and computed information;</para>
+  <para/>
+  <para>### Human performance considerations on the use of the EFB;</para>
+  <para/>
+  <para>### Additional training for new applications, new features of current applications, or changes to the hardware configuration;</para>
+  <para/>
+  <para>### Recurrent training and proficiency checks; and</para>
+  <para/>
+  <para>### Any area of special emphasis raised during the EFB evaluation with the authority</para>
+  <para/>
+  <para>### Logipad Type of Certificates/ Training Syllabus</para>
+  <para/>
+  <para>Logipad is responsible for training and providing EFB system administration training certificates for administrators and software usage training for operator instructors (Validate via question bank). The certificate is valid for **2** years and requires refresher training after **2** years. Operators' internal instructor will be responsible for training and renewal of certificates with guaranteed minimum participation time in Logipad's training syllabus content.</para>
+  <para/>
+  <para>#### Logipad Training Syllabus</para>
+  <para/>
+  <para>| **Subject**                                                      | **Time** | **Pass / Fail**  |  **Comment**                |</para>
+  <para>|------------------------------------------------------------------|----------|------------------|-----------------------------|</para>
+  <para>| Logipad Administrator Training Course- EFB admin instructor      |          |                  |                             |</para>
+  <para>| Manager user interface (MUI)                                     | 4 Hours  |  Pass Fail       |                             |</para>
+  <para>| Flight Manager                                                   | 4 Hours  |  Pass Fail       |                             |</para>
+  <para>| Jasper Libary Report                                             | 2 Hours  |  Pass Fail       |                             |</para>
+  <para>| Eform generator Tool                                             | 4 Hours  |  Pass Fail       |                             |</para>
+  <para>| Logipad Aero User Training Course - Using for Airline instructor |          |                  |                             |</para>
+  <para>| Documentation                                                    | 2 Hours  |  Pass Fail       | *Apply for all certificate* |</para>
+  <para>| Eforms                                                           | 2 Hours  |  Pass Fail       | *Apply for all certificate* |</para>
+  <para>| Briefing                                                         | 5 Hours  |  Pass Fail       | *Apply for all certificate* |</para>
+  <para>| Webclient                                                        | 1 Hours  |  Pass Fail       | *Apply for all certificate* |</para>
+  <para/>
+  <para>#### Type of certificates</para>
+  <para/>
+  <para>###### Logipad Administrator Training Course- EFB admin instructor</para>
+  <para/>
+  <para>![](media/c09550db681a30da594a48d9602c5d5e.png)</para>
+  <para/>
+  <para>###### Logipad Aero User Training Course - Using for Airline instructor</para>
+  <para/>
+  <para>![](media/e8ebc5aabb502c51a32422ccc8eb289b.png)</para>
+  <para/>
+  <para># RISK ASSESSMENT FOR LOGIPAD AERO FUNCTIONS</para>
+  <para/>
+  <para>## RISK ASSESSMENT FOR LOGIPAD DOCUMENTATION MODULE</para>
+  <para/>
+  <para>This section provides the risks assessment for the use of the Documentation module that is part of the Logipad with Dextra Data software suite.</para>
+  <para/>
+  <para>The objective of this risks assessment is to demonstrate that the application achieves at least the same level of integrity and availability as the â€œtraditionalâ€� paper means</para>
+  <para/>
+  <para>### Failure Cases and Mitigation Means</para>
+  <para/>
+  <para>Types of risks are looked at and their consequences defined and mitigated. They are:</para>
+  <para/>
+  <para>-   Total loss of the application</para>
+  <para>-   Data corruption</para>
+  <para>-   Undetected false output from the application.</para>
+  <para/>
+  <para>Mitigation means are processes and procedures defined to compensate each identified failure case. They are means to provide availability of the application and to ensure detection of a false output.</para>
+  <para/>
+  <para>Table 1: Failure cases and Mitigation means in Documentation module</para>
+  <para/>
+  <para>| **FAILURE CASES**                                                                                                                                                                         | **MITIGATION MEANS**                                                                                                                                                                                                                                                                              |</para>
+  <para>|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|</para>
+  <para>|  When updating documents using the same name, the operation manuals are not correctly updated. Unable to access the latest version of Documents.                                          | Logipad has an offline functionality. Previous documents ver-sions will be available.   PDF expert/ One drive can be used as backup option                                                                                                                                                        |</para>
+  <para>| Long time for downloaded content                                                                                                                                                          | The content dowload size can be huge for the first syn-chronization. Therefore, ensure that a good and stable wifi connection is available. Logipad will only doing partial updates for all other synchronization  EFB admin can mark documents for dowload only when wifi connecttion availlable |</para>
+  <para>| Erroneous Documents output   Sometimes Documents are visible to users even if expired/ Documents are not visible to users even validity date is set Documentâ€™s confirmation cannot be set | EFB admin need to setting a new expiration/validity date and need to initiate a new release to productive.  Logipad is operates in offline mode. Once a connection is establised the confirmation is automatically sent for users PDF expert/One drive can be used as backup option               |</para>
+  <para/>
+  <para>## RISK ASSESSMENT FOR LOGIPAD electronic Flight Folder ( EFF) MODULE</para>
+  <para/>
+  <para>This section provides the risks assessment for the use of the Documentation module that is part of the Logipad with Dextra Data software suite.</para>
+  <para/>
+  <para>The objective of this risks assessment is to demonstrate that the application achieves at least the same level of integrity and availability as the â€œtraditionalâ€� paper means</para>
+  <para/>
+  <para>### Failure Cases and Mitigation Means</para>
+  <para/>
+  <para>Types of risks are looked at and their consequences defined and mitigated. They are:</para>
+  <para/>
+  <para>-   Total loss of the application</para>
+  <para>-   Data Corruption</para>
+  <para>-   Sent function was lost</para>
+  <para/>
+  <para>Mitigation means are processes and procedures defined to compensate each identified failure case. They are means to provide availability of the application and to ensure detection of a false output.</para>
+  <para/>
+  <para>Table 2: Failure cases and Mitigation means in EFF module</para>
+  <para/>
+  <para>| **FAILURE CASES**                                                               | **MITIGATION MEANS**                                                                                                                                                                                                                           |</para>
+  <para>|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|</para>
+  <para>| Briefing package is not syn-chronized to client.                                | Users Re-install and sync again, EFB admin do hash checking Sharepoint folder/ paper flight plan can be as backup method                                                                                                                       |</para>
+  <para>| Briefing package gets cor-rupted during synchroniza-tion from Backend System.   | Users Re-install and sync again, EFB admin do hash checking Logipad offers a copy function to copy existing Briefing Pack-ages from crew members related to the same flight.                                                                   |</para>
+  <para>| Filled eBriefing Package can-not be sent.                                       | When Users filled eBriefings cannot be sent to the Logipad Backend System They will be stored on the device (Offline Mode). Logipad will automatically resent the filled eBriefing package once a connection (WIFI, 4G, LTE, 5G) is available. |</para>
+  <para/>
+  <para>## RISK ASSESSMENT FOR electronic Forms (eForms) MODULE</para>
+  <para/>
+  <para>This section provides the risks assessment for the use of the eForms module that is part of the Logipad with Dextra Data software suite.</para>
+  <para/>
+  <para>The objective of this risks assessment is to demonstrate that the application achieves at least the same level of integrity and availability as the â€œtraditionalâ€� paper means</para>
+  <para/>
+  <para>### Failure Cases and Mitigation Means</para>
+  <para/>
+  <para>Types of risks are looked at and their consequences defined and mitigated. They are:</para>
+  <para/>
+  <para>-   Total loss of the application</para>
+  <para>-   Server Corruption</para>
+  <para>-   Sent and filled function was lost</para>
+  <para/>
+  <para>Mitigation means are processes and procedures defined to compensate each identified failure case. They are means to provide availability of the application and to ensure detection of a false output.</para>
+  <para/>
+  <para>Table 3: Failure cases and Mitigation means in EForms module</para>
+  <para/>
+  <para>| **FAILURE CASES**                                                          | **MITIGATION MEANS**                                                                                                                                                                                                                                                        |</para>
+  <para>|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|</para>
+  <para>| Electronic forms do not syn-chronize to clients.                           | Existing eForms will be available and not deleted by the application. Logipad can work in offline mode. Digital form can be storage in PDF expert or paper forms as backup method                                                                                           |</para>
+  <para>| Electronic forms inputs are not imported into Logipadâ€™s Server database.   | Once eForms are sent to the server, eForms are cached an can be imported manually to the database at a later time.                                                                                                                                                          |</para>
+  <para>|  Electronic forms cannot be filled and sent                                | Use spare spare device, or paper backup form.  Logipad have offline functionality. Even during a connection loss (WIFI, eforms cannot be sent), eForms are stored in an out-box. Once the WIFI access is available Logipad will automatically resend the missing eForm(s).  |</para>
+</article>
