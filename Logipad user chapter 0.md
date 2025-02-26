@@ -2,7 +2,7 @@
 
 ![D:\\csm_Logipad_Logo_rgb_6a9b8dd7a2.png](media/feb27d0a82e329ed73c7120de86f2efb.png)
 
-**LOGIPAD USER MANUAL**
+**LOGIPAD USER MANUAL Test**
 
 **![](media/ab36b643f45515574436c82d5c523443.png)**
 
